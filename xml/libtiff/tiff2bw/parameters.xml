@@ -1,0 +1,61 @@
+<root>
+  <FILE>
+    <ELEMENT>@@ /dev/null</ELEMENT>
+ </FILE>
+
+  <PARAMETER>
+    <MUST>false</MUST>
+    <ELEMENT>-R 25%</ELEMENT>
+    <ELEMENT>-R 50%</ELEMENT>
+    <ELEMENT>-R 75%</ELEMENT>
+  </PARAMETER>
+  <PARAMETER>
+    <MUST>false</MUST>
+    <ELEMENT>-G 25%</ELEMENT>
+    <ELEMENT>-G 50%</ELEMENT>
+    <ELEMENT>-G 75%</ELEMENT>
+  </PARAMETER>
+  <PARAMETER>
+    <MUST>false</MUST>
+    <ELEMENT>-B 25%</ELEMENT>
+    <ELEMENT>-B 50%</ELEMENT>
+    <ELEMENT>-B 75%</ELEMENT>
+  </PARAMETER>
+  <PARAMETER>
+    <MUST>false</MUST>
+    <ELEMENT>-r 1</ELEMENT>
+    <ELEMENT>-r 2</ELEMENT>
+    <ELEMENT>-r 3</ELEMENT>
+  </PARAMETER>
+  <PARAMETER>
+    <MUST>false</MUST>
+    <ELEMENT>-c lzw:1</ELEMENT>
+    <ELEMENT>-c lzw:2</ELEMENT>
+    <ELEMENT>-c lzw:3</ELEMENT>
+  </PARAMETER>
+  <PARAMETER>
+    <MUST>false</MUST>
+    <ELEMENT>-c zip:1</ELEMENT>
+    <ELEMENT>-c zip:2</ELEMENT>
+    <ELEMENT>-c zip:3</ELEMENT>
+  </PARAMETER>
+  <PARAMETER>
+    <MUST>false</MUST>
+    <ELEMENT>-c packbits</ELEMENT>
+  </PARAMETER>
+  <PARAMETER>
+    <MUST>false</MUST>
+    <ELEMENT>-c g3:1</ELEMENT>
+    <ELEMENT>-c g3:2</ELEMENT>
+    <ELEMENT>-c g3:3</ELEMENT>
+  </PARAMETER>
+  <PARAMETER>
+    <MUST>false</MUST>
+    <ELEMENT>-c g4</ELEMENT>
+  </PARAMETER>
+  <PARAMETER>
+    <MUST>false</MUST>
+    <ELEMENT>-c none</ELEMENT>
+  </PARAMETER>
+
+</root>

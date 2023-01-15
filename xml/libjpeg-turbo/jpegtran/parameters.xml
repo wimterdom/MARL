@@ -1,0 +1,74 @@
+<root>
+  <FILE>
+    <ELEMENT>@@</ELEMENT>
+ </FILE>
+
+  <PARAMETER>
+    <MUST>false</MUST>
+    <ELEMENT>-copy none</ELEMENT>
+  </PARAMETER>	  
+  <PARAMETER>
+    <MUST>false</MUST>
+    <ELEMENT>-copy comments</ELEMENT>
+  </PARAMETER>
+  <PARAMETER>
+    <MUST>false</MUST>
+    <ELEMENT>-copy icc</ELEMENT>
+  </PARAMETER>
+  <PARAMETER>
+    <MUST>false</MUST>
+    <ELEMENT>-copy all</ELEMENT>
+  </PARAMETER>
+  <PARAMETER>
+    <MUST>false</MUST>
+    <ELEMENT>-optimize</ELEMENT>
+  </PARAMETER>
+  <PARAMETER>
+    <MUST>false</MUST>
+    <ELEMENT>-crop WxH+X+Y</ELEMENT>
+  </PARAMETER>
+  <PARAMETER>
+    <MUST>false</MUST>
+    <ELEMENT>-flip horizontal</ELEMENT>
+    <ELEMENT>-flip vertical</ELEMENT>
+  </PARAMETER>
+  <PARAMETER>
+    <MUST>false</MUST>
+    <ELEMENT>-grayscale</ELEMENT>
+  </PARAMETER>
+  <PARAMETER>
+    <MUST>false</MUST>
+    <ELEMENT>-perfect</ELEMENT>
+  </PARAMETER>
+  <PARAMETER>
+    <MUST>false</MUST>
+    <ELEMENT>-rotate 90</ELEMENT>
+    <ELEMENT>-rotate 180</ELEMENT>
+    <ELEMENT>-rotate 270</ELEMENT>
+  </PARAMETER>
+  <PARAMETER>
+    <MUST>false</MUST>
+    <ELEMENT>-transpose</ELEMENT>
+  </PARAMETER>
+  <PARAMETER>
+    <MUST>false</MUST>
+    <ELEMENT>-transverse</ELEMENT>
+  </PARAMETER>
+  <PARAMETER>
+    <MUST>false</MUST>
+    <ELEMENT>-trim</ELEMENT>
+  </PARAMETER>
+  <PARAMETER>
+    <MUST>false</MUST>
+    <ELEMENT>-wipe WxH+X+Y</ELEMENT>
+  </PARAMETER>
+  <PARAMETER>
+    <MUST>false</MUST>
+    <ELEMENT>-arithmetic</ELEMENT>
+  </PARAMETER>
+  <PARAMETER>
+    <MUST>false</MUST>
+    <ELEMENT>-strict</ELEMENT>
+  </PARAMETER>
+</root>
+

@@ -1,0 +1,1795 @@
+--passes=1
+--passes=2
+--pass=1
+--pass=2
+--fpf=/dev/null
+--limit=12
+--skip=10
+--good
+--rt
+--quiet
+--verbose
+--psnr=0
+--psnr=1
+--psnr=2
+--webm
+--ivf
+--obu
+--q-hist=0
+--q-hist=1
+--q-hist=5
+--rate-hist=0
+--rate-hist=1
+--rate-hist=5
+--disable-warnings
+--disable-warning-prompt
+--test-decode=off
+--test-decode=fatal
+--test-decode=warn
+--yv12
+--i420
+--i422
+--i444
+--usage=0
+--usage=1
+--profile=0
+--profile=1
+--forced_max_frame_width=0
+--forced_max_frame_width=1
+--forced_max_frame_width=5
+--forced_max_frame_height=0
+--forced_max_frame_height=1
+--forced_max_frame_height=5
+--stereo-mode=mono
+--stereo-mode=left-right
+--stereo-mode=top-bottom
+--stereo-mode=right-left
+--timebase=2/1
+--timebase=1/2
+--fps=5/5
+--global-error-resilient=0
+--global-error-resilient=1
+--global-error-resilient=5
+--bit-depth=8
+--bit-depth=10
+--bit-depth=12
+--lag-in-frames=10
+--large-scale-tile=0
+--large-scale-tile=1
+--monochrome
+--full-still-picture-hdr
+--use-16bit-internal
+-h 1
+-h 10
+-w 1
+-w 10
+--drop-frame=0
+--drop-frame=1
+--drop-frame=5
+--resize-mode=0
+--resize-mode=1
+--resize-mode=2
+--resize-mode=3
+--resize-denominator=0
+--resize-denominator=1
+--resize-denominator=5
+--superres-mode=0
+--superres-mode=1
+--superres-mode=5
+--superres-denominator=0
+--superres-denominator=1
+--superres-denominator=5
+--superres-kf-denominator=0
+--superres-kf-denominator=1
+--superres-kf-denominator=5
+--superres-qthresh=0
+--superres-qthresh=1
+--superres-qthresh=5
+--end-usage=vbr
+--end-usage=cbr
+--end-usage=cq
+--end-usage=q
+--target-bitrate=0
+--target-bitrate=1
+--target-bitrate=5
+--min-q=0
+--min-q=1
+--min-q=5
+--max-q=0
+--max-q=1
+--max-q=5
+--undershoot-pct=0
+--undershoot-pct=1
+--undershoot-pct=5
+--overshoot-pct=0
+--overshoot-pct=1
+--overshoot-pct=5
+--buf-sz=0
+--buf-sz=1
+--buf-sz=5
+--buf-initial-sz=0
+--buf-initial-sz=1
+--buf-initial-sz=5
+--bias-pct=0
+--bias-pct=50
+--bias-pct=100
+--minsection-pct=0
+--minsection-pct=1
+--minsection-pct=5
+--enable-fwd-kf=0
+--enable-fwd-kf=1
+--enable-fwd-kf=5
+--kf-min-dist=0
+--kf-min-dist=1
+--kf-min-dist=5
+--disable-kf
+-a
+-f
+-p
+-P header
+-P aout
+-P sections
+-P syms
+-P relocs
+-P lineno
+-P loader
+-P except
+-P typchk
+-P traceback
+-P toc
+-P ldinfo
+-h
+-x
+-d
+-D
+-S
+-s
+-G
+-WlLiaprmfFsoORtUuTgAck
+-WK
+-WN
+-L
+-t
+-T
+-r
+-R
+-b elf64-x86-64
+-b elf32-i386
+-b elf32-iamcu
+-b elf32-x86-64
+-b a.out-i386-linux
+-b pei-i386
+-b pei-x86-64
+-b elf64-l1om
+-b elf64-k1om
+-b elf64-little
+-b elf64-big
+-b elf32-little
+-b elf32-big
+-b pe-x86-64
+-b pe-bigobj-x86-64
+-b pe-i386
+-b plugin
+-b srec
+-b symbolsrec
+-b verilog
+-b tekhex
+-b binary
+-b ihex
+-m i386
+-m l1om
+-m k1om
+-m iamcu
+-m plugin
+-j .init
+-j .plt
+-j .plt.got
+-j .text
+-j .fini
+-j .rodata
+-j .init_array
+-j .fini_array
+-M intel
+-M x86-64
+-M i386
+-M i8086
+-M att
+-M att-mnemonic
+-M intel-mnemonic
+-M addr64
+-M addr32
+-M addr16
+-M data32
+-M data16
+-M suffix
+-M amd64
+-M intel64
+-EB
+-EL
+-l
+-F
+-C
+--recurse-limit
+--no-recurse-limit
+-w
+-z
+--start-address=0x40000
+--stop-address=0x50000
+--no-addresses
+--prefix-addresses
+--show-raw-insn
+--no-show-raw-insn
+--special-syms
+--inlines
+--dwarf-depth=8
+--dwarf-start=8
+--visualize-jumps
+-a
+-f
+-p
+-P header
+-P aout
+-P sections
+-P syms
+-P relocs
+-P lineno
+-P loader
+-P except
+-P typchk
+-P traceback
+-P toc
+-P ldinfo
+-h
+-x
+-d
+-D
+-S
+-s
+-G
+-WlLiaprmfFsoORtUuTgAck
+-WK
+-WN
+-L
+-t
+-T
+-r
+-R
+-b elf64-x86-64
+-b elf32-i386
+-b elf32-iamcu
+-b elf32-x86-64
+-b a.out-i386-linux
+-b pei-i386
+-b pei-x86-64
+-b elf64-l1om
+-b elf64-k1om
+-b elf64-little
+-b elf64-big
+-b elf32-little
+-b elf32-big
+-b pe-x86-64
+-b pe-bigobj-x86-64
+-b pe-i386
+-b plugin
+-b srec
+-b symbolsrec
+-b verilog
+-b tekhex
+-b binary
+-b ihex
+-m i386
+-m l1om
+-m k1om
+-m iamcu
+-m plugin
+-j .init
+-j .plt
+-j .plt.got
+-j .text
+-j .fini
+-j .rodata
+-j .init_array
+-j .fini_array
+-M intel
+-M x86-64
+-M i386
+-M i8086
+-M att
+-M att-mnemonic
+-M intel-mnemonic
+-M addr64
+-M addr32
+-M addr16
+-M data32
+-M data16
+-M suffix
+-M amd64
+-M intel64
+-EB
+-EL
+-l
+-F
+-C
+--recurse-limit
+--no-recurse-limit
+-w
+-z
+--start-address=0x40000
+--stop-address=0x50000
+--no-addresses
+--prefix-addresses
+--show-raw-insn
+--no-show-raw-insn
+--special-syms
+--inlines
+--dwarf-depth=8
+--dwarf-start=8
+--visualize-jumps
+-a
+-f
+-p
+-P header
+-P aout
+-P sections
+-P syms
+-P relocs
+-P lineno
+-P loader
+-P except
+-P typchk
+-P traceback
+-P toc
+-P ldinfo
+-h
+-x
+-d
+-D
+-S
+-s
+-G
+-WlLiaprmfFsoORtUuTgAck
+-WK
+-WN
+-L
+-t
+-T
+-r
+-R
+-b elf64-x86-64
+-b elf32-i386
+-b elf32-iamcu
+-b elf32-x86-64
+-b a.out-i386-linux
+-b pei-i386
+-b pei-x86-64
+-b elf64-l1om
+-b elf64-k1om
+-b elf64-little
+-b elf64-big
+-b elf32-little
+-b elf32-big
+-b pe-x86-64
+-b pe-bigobj-x86-64
+-b pe-i386
+-b plugin
+-b srec
+-b symbolsrec
+-b verilog
+-b tekhex
+-b binary
+-b ihex
+-m i386
+-m l1om
+-m k1om
+-m iamcu
+-m plugin
+-j .init
+-j .plt
+-j .plt.got
+-j .text
+-j .fini
+-j .rodata
+-j .init_array
+-j .fini_array
+-M intel
+-M x86-64
+-M i386
+-M i8086
+-M att
+-M att-mnemonic
+-M intel-mnemonic
+-M addr64
+-M addr32
+-M addr16
+-M data32
+-M data16
+-M suffix
+-M amd64
+-M intel64
+-EB
+-EL
+-l
+-F
+-C
+--recurse-limit
+--no-recurse-limit
+-w
+-z
+--start-address=0x40000
+--stop-address=0x50000
+--no-addresses
+--prefix-addresses
+--show-raw-insn
+--no-show-raw-insn
+--special-syms
+--inlines
+--dwarf-depth=8
+--dwarf-start=8
+--visualize-jumps
+-a
+-f
+-p
+-P header
+-P aout
+-P sections
+-P syms
+-P relocs
+-P lineno
+-P loader
+-P except
+-P typchk
+-P traceback
+-P toc
+-P ldinfo
+-h
+-x
+-d
+-D
+-S
+-s
+-G
+-WlLiaprmfFsoORtUuTgAck
+-WK
+-WN
+-L
+-t
+-T
+-r
+-R
+-b elf64-x86-64
+-b elf32-i386
+-b elf32-iamcu
+-b elf32-x86-64
+-b a.out-i386-linux
+-b pei-i386
+-b pei-x86-64
+-b elf64-l1om
+-b elf64-k1om
+-b elf64-little
+-b elf64-big
+-b elf32-little
+-b elf32-big
+-b pe-x86-64
+-b pe-bigobj-x86-64
+-b pe-i386
+-b plugin
+-b srec
+-b symbolsrec
+-b verilog
+-b tekhex
+-b binary
+-b ihex
+-m i386
+-m l1om
+-m k1om
+-m iamcu
+-m plugin
+-j .init
+-j .plt
+-j .plt.got
+-j .text
+-j .fini
+-j .rodata
+-j .init_array
+-j .fini_array
+-M intel
+-M x86-64
+-M i386
+-M i8086
+-M att
+-M att-mnemonic
+-M intel-mnemonic
+-M addr64
+-M addr32
+-M addr16
+-M data32
+-M data16
+-M suffix
+-M amd64
+-M intel64
+-EB
+-EL
+-l
+-F
+-C
+--recurse-limit
+--no-recurse-limit
+-w
+-z
+--start-address=0x40000
+--stop-address=0x50000
+--no-addresses
+--prefix-addresses
+--show-raw-insn
+--no-show-raw-insn
+--special-syms
+--inlines
+--dwarf-depth=8
+--dwarf-start=8
+--visualize-jumps
+-a
+-f
+-p
+-P header
+-P aout
+-P sections
+-P syms
+-P relocs
+-P lineno
+-P loader
+-P except
+-P typchk
+-P traceback
+-P toc
+-P ldinfo
+-h
+-x
+-d
+-D
+-S
+-s
+-G
+-WlLiaprmfFsoORtUuTgAck
+-WK
+-WN
+-L
+-t
+-T
+-r
+-R
+-b elf64-x86-64
+-b elf32-i386
+-b elf32-iamcu
+-b elf32-x86-64
+-b a.out-i386-linux
+-b pei-i386
+-b pei-x86-64
+-b elf64-l1om
+-b elf64-k1om
+-b elf64-little
+-b elf64-big
+-b elf32-little
+-b elf32-big
+-b pe-x86-64
+-b pe-bigobj-x86-64
+-b pe-i386
+-b plugin
+-b srec
+-b symbolsrec
+-b verilog
+-b tekhex
+-b binary
+-b ihex
+-m i386
+-m l1om
+-m k1om
+-m iamcu
+-m plugin
+-j .init
+-j .plt
+-j .plt.got
+-j .text
+-j .fini
+-j .rodata
+-j .init_array
+-j .fini_array
+-M intel
+-M x86-64
+-M i386
+-M i8086
+-M att
+-M att-mnemonic
+-M intel-mnemonic
+-M addr64
+-M addr32
+-M addr16
+-M data32
+-M data16
+-M suffix
+-M amd64
+-M intel64
+-EB
+-EL
+-l
+-F
+-C
+--recurse-limit
+--no-recurse-limit
+-w
+-z
+--start-address=0x40000
+--stop-address=0x50000
+--no-addresses
+--prefix-addresses
+--show-raw-insn
+--no-show-raw-insn
+--special-syms
+--inlines
+--dwarf-depth=8
+--dwarf-start=8
+--visualize-jumps
+-a
+-f
+-p
+-P header
+-P aout
+-P sections
+-P syms
+-P relocs
+-P lineno
+-P loader
+-P except
+-P typchk
+-P traceback
+-P toc
+-P ldinfo
+-h
+-x
+-d
+-D
+-S
+-s
+-G
+-WlLiaprmfFsoORtUuTgAck
+-WK
+-WN
+-L
+-t
+-T
+-r
+-R
+-b elf64-x86-64
+-b elf32-i386
+-b elf32-iamcu
+-b elf32-x86-64
+-b a.out-i386-linux
+-b pei-i386
+-b pei-x86-64
+-b elf64-l1om
+-b elf64-k1om
+-b elf64-little
+-b elf64-big
+-b elf32-little
+-b elf32-big
+-b pe-x86-64
+-b pe-bigobj-x86-64
+-b pe-i386
+-b plugin
+-b srec
+-b symbolsrec
+-b verilog
+-b tekhex
+-b binary
+-b ihex
+-m i386
+-m l1om
+-m k1om
+-m iamcu
+-m plugin
+-j .init
+-j .plt
+-j .plt.got
+-j .text
+-j .fini
+-j .rodata
+-j .init_array
+-j .fini_array
+-M intel
+-M x86-64
+-M i386
+-M i8086
+-M att
+-M att-mnemonic
+-M intel-mnemonic
+-M addr64
+-M addr32
+-M addr16
+-M data32
+-M data16
+-M suffix
+-M amd64
+-M intel64
+-EB
+-EL
+-l
+-F
+-C
+--recurse-limit
+--no-recurse-limit
+-w
+-z
+--start-address=0x40000
+--stop-address=0x50000
+--no-addresses
+--prefix-addresses
+--show-raw-insn
+--no-show-raw-insn
+--special-syms
+--inlines
+--dwarf-depth=8
+--dwarf-start=8
+--visualize-jumps
+-a
+-f
+-p
+-P header
+-P aout
+-P sections
+-P syms
+-P relocs
+-P lineno
+-P loader
+-P except
+-P typchk
+-P traceback
+-P toc
+-P ldinfo
+-h
+-x
+-d
+-D
+-S
+-s
+-G
+-WlLiaprmfFsoORtUuTgAck
+-WK
+-WN
+-L
+-t
+-T
+-r
+-R
+-b elf64-x86-64
+-b elf32-i386
+-b elf32-iamcu
+-b elf32-x86-64
+-b a.out-i386-linux
+-b pei-i386
+-b pei-x86-64
+-b elf64-l1om
+-b elf64-k1om
+-b elf64-little
+-b elf64-big
+-b elf32-little
+-b elf32-big
+-b pe-x86-64
+-b pe-bigobj-x86-64
+-b pe-i386
+-b plugin
+-b srec
+-b symbolsrec
+-b verilog
+-b tekhex
+-b binary
+-b ihex
+-m i386
+-m l1om
+-m k1om
+-m iamcu
+-m plugin
+-j .init
+-j .plt
+-j .plt.got
+-j .text
+-j .fini
+-j .rodata
+-j .init_array
+-j .fini_array
+-M intel
+-M x86-64
+-M i386
+-M i8086
+-M att
+-M att-mnemonic
+-M intel-mnemonic
+-M addr64
+-M addr32
+-M addr16
+-M data32
+-M data16
+-M suffix
+-M amd64
+-M intel64
+-EB
+-EL
+-l
+-F
+-C
+--recurse-limit
+--no-recurse-limit
+-w
+-z
+--start-address=0x40000
+--stop-address=0x50000
+--no-addresses
+--prefix-addresses
+--show-raw-insn
+--no-show-raw-insn
+--special-syms
+--inlines
+--dwarf-depth=8
+--dwarf-start=8
+--visualize-jumps
+-a
+-f
+-p
+-P header
+-P aout
+-P sections
+-P syms
+-P relocs
+-P lineno
+-P loader
+-P except
+-P typchk
+-P traceback
+-P toc
+-P ldinfo
+-h
+-x
+-d
+-D
+-S
+-s
+-G
+-WlLiaprmfFsoORtUuTgAck
+-WK
+-WN
+-L
+-t
+-T
+-r
+-R
+-b elf64-x86-64
+-b elf32-i386
+-b elf32-iamcu
+-b elf32-x86-64
+-b a.out-i386-linux
+-b pei-i386
+-b pei-x86-64
+-b elf64-l1om
+-b elf64-k1om
+-b elf64-little
+-b elf64-big
+-b elf32-little
+-b elf32-big
+-b pe-x86-64
+-b pe-bigobj-x86-64
+-b pe-i386
+-b plugin
+-b srec
+-b symbolsrec
+-b verilog
+-b tekhex
+-b binary
+-b ihex
+-m i386
+-m l1om
+-m k1om
+-m iamcu
+-m plugin
+-j .init
+-j .plt
+-j .plt.got
+-j .text
+-j .fini
+-j .rodata
+-j .init_array
+-j .fini_array
+-M intel
+-M x86-64
+-M i386
+-M i8086
+-M att
+-M att-mnemonic
+-M intel-mnemonic
+-M addr64
+-M addr32
+-M addr16
+-M data32
+-M data16
+-M suffix
+-M amd64
+-M intel64
+-EB
+-EL
+-l
+-F
+-C
+--recurse-limit
+--no-recurse-limit
+-w
+-z
+--start-address=0x40000
+--stop-address=0x50000
+--no-addresses
+--prefix-addresses
+--show-raw-insn
+--no-show-raw-insn
+--special-syms
+--inlines
+--dwarf-depth=8
+--dwarf-start=8
+--visualize-jumps
+-a
+-f
+-p
+-P header
+-P aout
+-P sections
+-P syms
+-P relocs
+-P lineno
+-P loader
+-P except
+-P typchk
+-P traceback
+-P toc
+-P ldinfo
+-h
+-x
+-d
+-D
+-S
+-s
+-G
+-WlLiaprmfFsoORtUuTgAck
+-WK
+-WN
+-L
+-t
+-T
+-r
+-R
+-b elf64-x86-64
+-b elf32-i386
+-b elf32-iamcu
+-b elf32-x86-64
+-b a.out-i386-linux
+-b pei-i386
+-b pei-x86-64
+-b elf64-l1om
+-b elf64-k1om
+-b elf64-little
+-b elf64-big
+-b elf32-little
+-b elf32-big
+-b pe-x86-64
+-b pe-bigobj-x86-64
+-b pe-i386
+-b plugin
+-b srec
+-b symbolsrec
+-b verilog
+-b tekhex
+-b binary
+-b ihex
+-m i386
+-m l1om
+-m k1om
+-m iamcu
+-m plugin
+-j .init
+-j .plt
+-j .plt.got
+-j .text
+-j .fini
+-j .rodata
+-j .init_array
+-j .fini_array
+-M intel
+-M x86-64
+-M i386
+-M i8086
+-M att
+-M att-mnemonic
+-M intel-mnemonic
+-M addr64
+-M addr32
+-M addr16
+-M data32
+-M data16
+-M suffix
+-M amd64
+-M intel64
+-EB
+-EL
+-l
+-F
+-C
+--recurse-limit
+--no-recurse-limit
+-w
+-z
+--start-address=0x40000
+--stop-address=0x50000
+--no-addresses
+--prefix-addresses
+--show-raw-insn
+--no-show-raw-insn
+--special-syms
+--inlines
+--dwarf-depth=8
+--dwarf-start=8
+--visualize-jumps
+-a
+-f
+-p
+-P header
+-P aout
+-P sections
+-P syms
+-P relocs
+-P lineno
+-P loader
+-P except
+-P typchk
+-P traceback
+-P toc
+-P ldinfo
+-h
+-x
+-d
+-D
+-S
+-s
+-G
+-WlLiaprmfFsoORtUuTgAck
+-WK
+-WN
+-L
+-t
+-T
+-r
+-R
+-b elf64-x86-64
+-b elf32-i386
+-b elf32-iamcu
+-b elf32-x86-64
+-b a.out-i386-linux
+-b pei-i386
+-b pei-x86-64
+-b elf64-l1om
+-b elf64-k1om
+-b elf64-little
+-b elf64-big
+-b elf32-little
+-b elf32-big
+-b pe-x86-64
+-b pe-bigobj-x86-64
+-b pe-i386
+-b plugin
+-b srec
+-b symbolsrec
+-b verilog
+-b tekhex
+-b binary
+-b ihex
+-m i386
+-m l1om
+-m k1om
+-m iamcu
+-m plugin
+-j .init
+-j .plt
+-j .plt.got
+-j .text
+-j .fini
+-j .rodata
+-j .init_array
+-j .fini_array
+-M intel
+-M x86-64
+-M i386
+-M i8086
+-M att
+-M att-mnemonic
+-M intel-mnemonic
+-M addr64
+-M addr32
+-M addr16
+-M data32
+-M data16
+-M suffix
+-M amd64
+-M intel64
+-EB
+-EL
+-l
+-F
+-C
+--recurse-limit
+--no-recurse-limit
+-w
+-z
+--start-address=0x40000
+--stop-address=0x50000
+--no-addresses
+--prefix-addresses
+--show-raw-insn
+--no-show-raw-insn
+--special-syms
+--inlines
+--dwarf-depth=8
+--dwarf-start=8
+--visualize-jumps
+-a
+-f
+-p
+-P header
+-P aout
+-P sections
+-P syms
+-P relocs
+-P lineno
+-P loader
+-P except
+-P typchk
+-P traceback
+-P toc
+-P ldinfo
+-h
+-x
+-d
+-D
+-S
+-s
+-G
+-WlLiaprmfFsoORtUuTgAck
+-WK
+-WN
+-L
+-t
+-T
+-r
+-R
+-b elf64-x86-64
+-b elf32-i386
+-b elf32-iamcu
+-b elf32-x86-64
+-b a.out-i386-linux
+-b pei-i386
+-b pei-x86-64
+-b elf64-l1om
+-b elf64-k1om
+-b elf64-little
+-b elf64-big
+-b elf32-little
+-b elf32-big
+-b pe-x86-64
+-b pe-bigobj-x86-64
+-b pe-i386
+-b plugin
+-b srec
+-b symbolsrec
+-b verilog
+-b tekhex
+-b binary
+-b ihex
+-m i386
+-m l1om
+-m k1om
+-m iamcu
+-m plugin
+-j .init
+-j .plt
+-j .plt.got
+-j .text
+-j .fini
+-j .rodata
+-j .init_array
+-j .fini_array
+-M intel
+-M x86-64
+-M i386
+-M i8086
+-M att
+-M att-mnemonic
+-M intel-mnemonic
+-M addr64
+-M addr32
+-M addr16
+-M data32
+-M data16
+-M suffix
+-M amd64
+-M intel64
+-EB
+-EL
+-l
+-F
+-C
+--recurse-limit
+--no-recurse-limit
+-w
+-z
+--start-address=0x40000
+--stop-address=0x50000
+--no-addresses
+--prefix-addresses
+--show-raw-insn
+--no-show-raw-insn
+--special-syms
+--inlines
+--dwarf-depth=8
+--dwarf-start=8
+--visualize-jumps
+-a
+-f
+-p
+-P header
+-P aout
+-P sections
+-P syms
+-P relocs
+-P lineno
+-P loader
+-P except
+-P typchk
+-P traceback
+-P toc
+-P ldinfo
+-h
+-x
+-d
+-D
+-S
+-s
+-G
+-WlLiaprmfFsoORtUuTgAck
+-WK
+-WN
+-L
+-t
+-T
+-r
+-R
+-b elf64-x86-64
+-b elf32-i386
+-b elf32-iamcu
+-b elf32-x86-64
+-b a.out-i386-linux
+-b pei-i386
+-b pei-x86-64
+-b elf64-l1om
+-b elf64-k1om
+-b elf64-little
+-b elf64-big
+-b elf32-little
+-b elf32-big
+-b pe-x86-64
+-b pe-bigobj-x86-64
+-b pe-i386
+-b plugin
+-b srec
+-b symbolsrec
+-b verilog
+-b tekhex
+-b binary
+-b ihex
+-m i386
+-m l1om
+-m k1om
+-m iamcu
+-m plugin
+-j .init
+-j .plt
+-j .plt.got
+-j .text
+-j .fini
+-j .rodata
+-j .init_array
+-j .fini_array
+-M intel
+-M x86-64
+-M i386
+-M i8086
+-M att
+-M att-mnemonic
+-M intel-mnemonic
+-M addr64
+-M addr32
+-M addr16
+-M data32
+-M data16
+-M suffix
+-M amd64
+-M intel64
+-EB
+-EL
+-l
+-F
+-C
+--recurse-limit
+--no-recurse-limit
+-w
+-z
+--start-address=0x40000
+--stop-address=0x50000
+--no-addresses
+--prefix-addresses
+--show-raw-insn
+--no-show-raw-insn
+--special-syms
+--inlines
+--dwarf-depth=8
+--dwarf-start=8
+--visualize-jumps
+-a
+-f
+-p
+-P header
+-P aout
+-P sections
+-P syms
+-P relocs
+-P lineno
+-P loader
+-P except
+-P typchk
+-P traceback
+-P toc
+-P ldinfo
+-h
+-x
+-d
+-D
+-S
+-s
+-G
+-WlLiaprmfFsoORtUuTgAck
+-WK
+-WN
+-L
+-t
+-T
+-r
+-R
+-b elf64-x86-64
+-b elf32-i386
+-b elf32-iamcu
+-b elf32-x86-64
+-b a.out-i386-linux
+-b pei-i386
+-b pei-x86-64
+-b elf64-l1om
+-b elf64-k1om
+-b elf64-little
+-b elf64-big
+-b elf32-little
+-b elf32-big
+-b pe-x86-64
+-b pe-bigobj-x86-64
+-b pe-i386
+-b plugin
+-b srec
+-b symbolsrec
+-b verilog
+-b tekhex
+-b binary
+-b ihex
+-m i386
+-m l1om
+-m k1om
+-m iamcu
+-m plugin
+-j .init
+-j .plt
+-j .plt.got
+-j .text
+-j .fini
+-j .rodata
+-j .init_array
+-j .fini_array
+-M intel
+-M x86-64
+-M i386
+-M i8086
+-M att
+-M att-mnemonic
+-M intel-mnemonic
+-M addr64
+-M addr32
+-M addr16
+-M data32
+-M data16
+-M suffix
+-M amd64
+-M intel64
+-EB
+-EL
+-l
+-F
+-C
+--recurse-limit
+--no-recurse-limit
+-w
+-z
+--start-address=0x40000
+--stop-address=0x50000
+--no-addresses
+--prefix-addresses
+--show-raw-insn
+--no-show-raw-insn
+--special-syms
+--inlines
+--dwarf-depth=8
+--dwarf-start=8
+--visualize-jumps
+-a
+-f
+-p
+-P header
+-P aout
+-P sections
+-P syms
+-P relocs
+-P lineno
+-P loader
+-P except
+-P typchk
+-P traceback
+-P toc
+-P ldinfo
+-h
+-x
+-d
+-D
+-S
+-s
+-G
+-WlLiaprmfFsoORtUuTgAck
+-WK
+-WN
+-L
+-t
+-T
+-r
+-R
+-b elf64-x86-64
+-b elf32-i386
+-b elf32-iamcu
+-b elf32-x86-64
+-b a.out-i386-linux
+-b pei-i386
+-b pei-x86-64
+-b elf64-l1om
+-b elf64-k1om
+-b elf64-little
+-b elf64-big
+-b elf32-little
+-b elf32-big
+-b pe-x86-64
+-b pe-bigobj-x86-64
+-b pe-i386
+-b plugin
+-b srec
+-b symbolsrec
+-b verilog
+-b tekhex
+-b binary
+-b ihex
+-m i386
+-m l1om
+-m k1om
+-m iamcu
+-m plugin
+-j .init
+-j .plt
+-j .plt.got
+-j .text
+-j .fini
+-j .rodata
+-j .init_array
+-j .fini_array
+-M intel
+-M x86-64
+-M i386
+-M i8086
+-M att
+-M att-mnemonic
+-M intel-mnemonic
+-M addr64
+-M addr32
+-M addr16
+-M data32
+-M data16
+-M suffix
+-M amd64
+-M intel64
+-EB
+-EL
+-l
+-F
+-C
+--recurse-limit
+--no-recurse-limit
+-w
+-z
+--start-address=0x40000
+--stop-address=0x50000
+--no-addresses
+--prefix-addresses
+--show-raw-insn
+--no-show-raw-insn
+--special-syms
+--inlines
+--dwarf-depth=8
+--dwarf-start=8
+--visualize-jumps
+-a
+-f
+-p
+-P header
+-P aout
+-P sections
+-P syms
+-P relocs
+-P lineno
+-P loader
+-P except
+-P typchk
+-P traceback
+-P toc
+-P ldinfo
+-h
+-x
+-d
+-D
+-S
+-s
+-G
+-WlLiaprmfFsoORtUuTgAck
+-WK
+-WN
+-L
+-t
+-T
+-r
+-R
+-b elf64-x86-64
+-b elf32-i386
+-b elf32-iamcu
+-b elf32-x86-64
+-b a.out-i386-linux
+-b pei-i386
+-b pei-x86-64
+-b elf64-l1om
+-b elf64-k1om
+-b elf64-little
+-b elf64-big
+-b elf32-little
+-b elf32-big
+-b pe-x86-64
+-b pe-bigobj-x86-64
+-b pe-i386
+-b plugin
+-b srec
+-b symbolsrec
+-b verilog
+-b tekhex
+-b binary
+-b ihex
+-m i386
+-m l1om
+-m k1om
+-m iamcu
+-m plugin
+-j .init
+-j .plt
+-j .plt.got
+-j .text
+-j .fini
+-j .rodata
+-j .init_array
+-j .fini_array
+-M intel
+-M x86-64
+-M i386
+-M i8086
+-M att
+-M att-mnemonic
+-M intel-mnemonic
+-M addr64
+-M addr32
+-M addr16
+-M data32
+-M data16
+-M suffix
+-M amd64
+-M intel64
+-EB
+-EL
+-l
+-F
+-C
+--recurse-limit
+--no-recurse-limit
+-w
+-z
+--start-address=0x40000
+--stop-address=0x50000
+--no-addresses
+--prefix-addresses
+--show-raw-insn
+--no-show-raw-insn
+--special-syms
+--inlines
+--dwarf-depth=8
+--dwarf-start=8
+--visualize-jumps
+-a
+-f
+-p
+-P header
+-P aout
+-P sections
+-P syms
+-P relocs
+-P lineno
+-P loader
+-P except
+-P typchk
+-P traceback
+-P toc
+-P ldinfo
+-h
+-x
+-d
+-D
+-S
+-s
+-G
+-WlLiaprmfFsoORtUuTgAck
+-WK
+-WN
+-L
+-t
+-T
+-r
+-R
+-b elf64-x86-64
+-b elf32-i386
+-b elf32-iamcu
+-b elf32-x86-64
+-b a.out-i386-linux
+-b pei-i386
+-b pei-x86-64
+-b elf64-l1om
+-b elf64-k1om
+-b elf64-little
+-b elf64-big
+-b elf32-little
+-b elf32-big
+-b pe-x86-64
+-b pe-bigobj-x86-64
+-b pe-i386
+-b plugin
+-b srec
+-b symbolsrec
+-b verilog
+-b tekhex
+-b binary
+-b ihex
+-m i386
+-m l1om
+-m k1om
+-m iamcu
+-m plugin
+-j .init
+-j .plt
+-j .plt.got
+-j .text
+-j .fini
+-j .rodata
+-j .init_array
+-j .fini_array
+-M intel
+-M x86-64
+-M i386
+-M i8086
+-M att
+-M att-mnemonic
+-M intel-mnemonic
+-M addr64
+-M addr32
+-M addr16
+-M data32
+-M data16
+-M suffix
+-M amd64
+-M intel64
+-EB
+-EL
+-l
+-F
+-C
+--recurse-limit
+--no-recurse-limit
+-w
+-z
+--start-address=0x40000
+--stop-address=0x50000
+--no-addresses
+--prefix-addresses
+--show-raw-insn
+--no-show-raw-insn
+--special-syms
+--inlines
+--dwarf-depth=8
+--dwarf-start=8
+--visualize-jumps
+-o /dev/null
+-j
+-z
+-q 50
+-n
+-b
+-d
+-i
+-p letter
+-p legal
+-p A4
+-u i
+-u m
+-w 50
+-l 50
+-x 50
+-y 50
+-r d
+-r o
+-F
+-f
+-e 20201112221133
+-c yuan
+-a yuan
+-t yuan
+-s yuan
+-k yuan
+-o /dev/null
+-j
+-z
+-q 50
+-n
+-b
+-d
+-i
+-p letter
+-p legal
+-p A4
+-u i
+-u m
+-w 50
+-l 50
+-x 50
+-y 50
+-r d
+-r o
+-F
+-f
+-e 20201112221133
+-c yuan
+-a yuan
+-t yuan
+-s yuan
+-k yuan
