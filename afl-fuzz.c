@@ -9518,7 +9518,7 @@ int main(int argc, char **argv)
   SAYF("parameter_total = %d\n", parameter_total);
   for (int i = 0; i < parameter_total; i++)
   {
-    SAYF("parameter_index = %s\n", parameter_index[i]);
+    SAYF("parameter_index %d = %s\n", i, parameter_index[i]);
   }
 
   int first_argv[parameter_array_size];
