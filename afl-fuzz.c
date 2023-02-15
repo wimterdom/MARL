@@ -7831,7 +7831,12 @@ static char **argv_fuzz_one(char **argv)
   /* skip CALIBRATION, TRIMMING, PERFORMANCE SCORE */
   memcpy(out_buf, in_buf, len);
   stage_short = "arg1";
-  stage_max = parameter_count * parameter_count;//parameter_total;
+  
+  if ((parameter_count*parameter_count) < 1500)
+    stage_max = parameter_count * parameter_count;//parameter_total;
+  else
+    stage_max = 1000;
+
   stage_name = "arg_gen";
   char **new_argv;
   int run_argv[parameter_array_size];
